@@ -24,7 +24,7 @@ def gitCommitCount = 100 +
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "io.plaidapp"
@@ -64,7 +64,7 @@ repositories {
 }
 
 ext {
-    supportLibVersion = '23.2.1'
+    supportLibVersion = '23.4.0'
 }
 
 dependencies {
